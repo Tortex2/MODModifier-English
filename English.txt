@@ -1,7 +1,7 @@
 >test Test
 >----------config ----------
 >LangDisplayName English
->LangDisplayDesc English,Community
+>LangDisplayDesc English,Community.(This is an community sourced english localization for the MODModifier for Amazing Cultivation Simulator.)
 >MODName MODModifier
 >----------window1 main window----------
 >QFWDModifierMainUI_FlagSet World Flags
@@ -270,6 +270,13 @@
 >EventSet_Tips12 failed to display secrets!
 >EventSet_Tips13 Character List
 >EventSet_Tips14 NPC list
+>EventSet_Tips15 [ID]
+>EventSet_Tips16 [Name]
+>EventSet_Tips17 [Description]
+>EventSet_Tips18 [Type]
+>EventSet_Tips19 [Unlock Level]
+>EventSet_Tips20 [Level]
+>EventSet_Tips21 [Class name]
 
 >----------window8 logo modification----------
 >FlagSet_Title World Flags
@@ -324,6 +331,7 @@
 >JHNpcManager_lable17 Clean Up NPC:
 >JHNpcManager_lable10 Clear NPC
 >JHNpcManager_bntDownHGJHNPC Execute
+>JHNpcManager_lable21 Know NPC
 
 >JHNpcManager_Tips1 shows basic attributes!
 >JHNpcManager_Tips2 shows annoying items!
@@ -368,6 +376,15 @@
 >JHNpcManager_Tips41 Dislikes
 >JHNpcManager_Tips42 favorite items
 >JHNpcManager_Tips43 Annoying Items
+>JHNpcManager_Tips44 Failed! The current NPC is not available (you may need to know the NPC first).
+>JHNpcManager_Tips45 This function is used to unlock all clues.
+>JHNpcManager_Tips46 This function is used to unlock all secrets.
+>JHNpcManager_Tips47 Try to add the NPC to the list of known NPCs to unlock other shortcuts. (Note: A copy of the NPC's data will be created.)
+>JHNpcManager_Tips48 This function is used to remove the information of dead NPCs.
+>JHNpcManager_Tips49 This function is used to remove the information of dead NPCs and hidden NPCs. It may solve some of the problems of stuttering in the later stage of the game, and there is also a very small probability of causing undesirable things.
+>JHNpcManager_Tips50 Succeeded in knowing the NPC.
+>JHNpcManager_Tips51 Attempting to know the NPC failed!			
+
 >----------window10 character summon interface----------
 >JoinnerSet_Title Spawn NPCs
 >JoinnerSet_tlable1 Joiner settings:
@@ -384,7 +401,7 @@
 >JoinnerSet_tlablell1 Spirit Pet:
 >JoinnerSet_tlable5 Samsara:
 >JoinnerSet_labler5 Number:
->JoinnerSet_bntReload overload
+>JoinnerSet_bntReload Overload
 
 >JoinnerSet_Tips1 Summon the joiner
 >JoinnerSet_Tips2 Summon the enemy
@@ -501,28 +518,28 @@
 >MapSet_bntSetList Modify List
 >MapSet_bntYesList Confirm List
 >MapSet_bntUpdateList Refresh List
->MapSet_bntYesAllMap Apply map
+>MapSet_bntYesAllMap Apply Full Map
 
 >MapSet_Tips1 Paste data successfully!
 >MapSet_Tips2 Map opened successfully!
->MapSet_Tips3 successfully cleared the dust!
->MapSet_Tips4 search successfully!
->MapSet_Tips5 is displayed successfully!
+>MapSet_Tips3 Successfully cleared the dust!
+>MapSet_Tips4 Search successfull!
+>MapSet_Tips5 Is displayed successfully!
 >MapSet_Tips6 Refresh the list successfully!
->MapSet_Tips7 successfully modified the list!
+>MapSet_Tips7 Successfully modified the list!
 >MapSet_Tips8 Confirm the list is successful!
->MapSet_Tips9 full map application successfully!
->MapSet_Tips10 removed successfully!
->MapSet_Tips11 failed!
->MapSet_Tips12 all removed successfully!
->MapSet_Tips13 single removed successfully
->MapSet_Tips14 area management!
+>MapSet_Tips9 Full map application successfully!
+>MapSet_Tips10 Removed successfully!
+>MapSet_Tips11 Failed!
+>MapSet_Tips12 All Removed successfully!
+>MapSet_Tips13 Single Removed successfully
+>MapSet_Tips14 Area Management!
 >MapSet_Tips15 type
->MapSet_Tips16 external data list
->MapSet_Tips17 data list
+>MapSet_Tips16 External Data List
+>MapSet_Tips17 Data List
 >MapSet_Tips18 The number exceeds 2200 and has been stopped!
 >MapSet_Tips19 You may not display the list yet!
->MapSet_Tips20 attribute
+>MapSet_Tips20 Attribute
 
 >----------window13 weather add----------
 >WeatherSet_Title Weather
@@ -552,10 +569,10 @@
 >TimeSet_Tips1 Current speed---
 >TimeSet_Tips2 Modify the current number of days to:
 >TimeSet_Tips3 Modify the current time as:
->TimeSet_Tips4 modified to spring:
->TimeSet_Tips5 modified to summer:
->TimeSet_Tips6 modified to fall:
->TimeSet_Tips7 modified to winter:
+>TimeSet_Tips4 Modified to Spring:
+>TimeSet_Tips5 Modified to Summer:
+>TimeSet_Tips6 Modified to Fall:
+>TimeSet_Tips7 Modified to Winter:
 
 >----------window15 item module----------
 >ThingManagerMore_Title Item Manager
@@ -598,12 +615,13 @@
 >ThingManagerMore_ShowLable23 fParam2:
 >ThingManagerMore_ShowLable124 sParam1:
 >ThingManagerMore_ShowLable125 sParam2:
+>ThingManagerMore_bntClearSpecialFSCT Clear Condition													 
 
->ThingManagerMore_Tips1 successfully modified the list!
+>ThingManagerMore_Tips1 Successfully modified the list!
 >ThingManagerMore_Tips2 Confirm that the list is successful!
 >ThingManagerMore_Tips3 Successfully refreshed the equipment module list!
 >ThingManagerMore_Tips4 Failed to refresh the equipment module list!
->ThingManagerMore_Tips5 successfully removed the attribute!
+>ThingManagerMore_Tips5 Successfully removed the attribute!
 >ThingManagerMore_Tips6 Failed to remove this attribute!
 >ThingManagerMore_Tips7 Added equipment skill module successfully!
 >ThingManagerMore_Tips8 Failed to add equipment skill module!
@@ -612,7 +630,7 @@
 >ThingManagerMore_Tips11 View all signs success!
 >ThingManagerMore_Tips12 Successfully added equipment normal module!
 >ThingManagerMore_Tips13 Module added successfully!
->ThingManagerMore_Tips14 failed to add module, there can only be one module!
+>ThingManagerMore_Tips14 Failed to add module, there can only be one module!
 >ThingManagerMore_Tips15 Refresh the list successfully!
 >ThingManagerMore_Tips16 Failed to refresh the list!
 >ThingManagerMore_Tips17 Successfully removed entry!
@@ -628,7 +646,7 @@
 >ThingManagerMore_Tips27 Failed to remove the secret treasure module!
 >ThingManagerMore_Tips28 Added the secret treasure module successfully!
 >ThingManagerMore_Tips29 Failed to add secret treasure module!
->ThingManagerMore_Tips30 shows all the secret treasure types successfully!
+>ThingManagerMore_Tips30 Shows all the secret treasure types successfully!
 >ThingManagerMore_Tips31 Secret Treasure Module
 >ThingManagerMore_Tips32 Secret Treasure Entry Attribute
 >ThingManagerMore_Tips33 Feng Shui attributes
@@ -639,7 +657,41 @@
 >ThingManagerMore_Tips38 Entry List
 >ThingManagerMore_Tips39 Entry name: ModifierName
 >ThingManagerMore_Tips40 entry effect: ModifierScale
->ThingManagerMore_Tips41 Module name list
+>ThingManagerMore_Tips41 Module Name List
+>ThingManagerMore_Tips42 Integer
+>ThingManagerMore_Tips43 Floating Point
+>ThingManagerMore_Tips44 String
+>ThingManagerMore_Tips45 Element Type List
+>ThingManagerMore_Tips46 Building Location List
+>ThingManagerMore_Tips47 Room FengShui Status List
+>ThingManagerMore_Tips48 Room Type List
+>ThingManagerMore_Tips49 Secret Treasure Special Ability List
+>ThingManagerMore_Tips50 Entry list
+>ThingManagerMore_Tips51 Special Mark List
+>ThingManagerMore_Tips52 Skill Type List
+>ThingManagerMore_Tips53 Special Flag List
+>ThingManagerMore_Tips54 Special Mark List
+>ThingManagerMore_Tips55 Special Mark List
+>ThingManagerMore_Tips56 The special conditions for clearing the towns was successful!
+>ThingManagerMore_Tips57 Failed to clear special conditions of towns!
+>ThingManagerMore_Tips58 Note: Items without equipped modules need to be added modules first!
+>ThingManagerMore_Tips59 Special conditions for emptying towns.
+>ThingManagerMore_Tips60 Remove the selected effect from the town effect.
+>ThingManagerMore_Tips61 Refresh the effect list of the towns.
+>ThingManagerMore_Tips62 Add the selected entry to the town thing effect.
+>ThingManagerMore_Tips63 shows all the entries that can be added to the town.
+>ThingManagerMore_Tips64 Add a module to items that don't have a Feng Shui town item module.
+>ThingManagerMore_Tips65 Refresh/display the attributes of the item's Feng Shui module.
+>ThingManagerMore_Tips66 Only modify the attributes in the Feng Shui attribute list. (Note: You need to click "Confirm List" to take effect.)
+>ThingManagerMore_Tips67 Apply the Feng Shui attribute list to the item.
+>ThingManagerMore_Tips68 Refresh/display the item's equipment module attribute list. (Note: Items without equipment modules need to be added modules before they can use this function.)
+>ThingManagerMore_Tips69 Remove the selected item of equipment attribute.
+>ThingManagerMore_Tips70 Add a equipment attribute module/add a equipment attribute. Attributes: character skill attributes
+>ThingManagerMore_Tips71 Add a equipment attribute module/add a equipment attribute. Attributes: role attributes
+>ThingManagerMore_Tips72 Remove the secret treasure module.
+>ThingManagerMore_Tips73 Refresh/display the attributes of the secret treasure module. (Note: Items without the Secret Treasure Attribute Module need to add a Secret Treasure Attribute Module to use this function.)
+>ThingManagerMore_Tips74
+>ThingManagerMore_Tips75
 
 >----------window16 Item management----------
 >ThingManager_Title Item Management
@@ -667,9 +719,9 @@
 >ThingManager_lable13 Redraw All
 >ThingManager_lable11 Enable:
 >ThingManager_lable12 Disable:
->ThingManager_bntShowBase Basic prop
->ThingManager_bntShowFB Magic prop
->ThingManager_bntShowEquip Module prop
+>ThingManager_bntShowBase Basic properties
+>ThingManager_bntShowFB Magic properties
+>ThingManager_bntShowEquip Module properties
 
 >ThingManager_Tips1 modify the value of the list (you need to click "confirm list" to modify the data)
 >ThingManager_Tips2 Modify the game data item by item according to the value of the list
@@ -732,7 +784,7 @@
 >ThingManager_Tips59 NPC list
 >ThingManager_Tips60 No items on the map
 >ThingManager_Tips61 Item List
->ThingManager_Tips62 Item basic attributes
+>ThingManager_Tips62 Item Basic attributes
 >ThingManager_Tips63 Item Magic Attributes
 
 >----------window17 martial art management--tang----------
@@ -752,39 +804,39 @@
 >SchoolTangManager_bntTangs Branch
 >SchoolTangManager_bntNPCs NPC
 >SchoolTangManager_bntNPCMen MEN
->SchoolTangManager_input2 QingfengBranch
+>SchoolTangManager_input2 Qingfeng Branch
 
->SchoolTangManager_Tips1 number is empty, modification failed!
->SchoolTangManager_Tips2 number overflow, modification failed!
+>SchoolTangManager_Tips1 Number is empty, modification failed!
+>SchoolTangManager_Tips2 Number overflow, modification failed!
 >SchoolTangManager_Tips3 Successfully selected branch
 >SchoolTangManager_Tips4 Successfully modify the list data!
 >SchoolTangManager_Tips5 Modify data successfully!
->SchoolTangManager_Tips6 shows that all splits are successful!
->SchoolTangManager_Tips7 shows all NPCs successfully!
+>SchoolTangManager_Tips6 Shows that all splits are successful!
+>SchoolTangManager_Tips7 Shows all NPCs successfully!
 >SchoolTangManager_Tips8 Show all characters success!
 >SchoolTangManager_Tips9 Show all characters in the branch successfully!
 >SchoolTangManager_Tips10 The person moved out of the branch!
 >SchoolTangManager_Tips11 This person has joined the branch!
 >SchoolTangManager_Tips12 List of branch people--ID
 >SchoolTangManager_Tips13 Character List--ID
->SchoolTangManager_Tips14 class list
->SchoolTangManager_Tips15 currently has no branch!
->SchoolTangManager_Tips16 class attributes
+>SchoolTangManager_Tips14 Class list
+>SchoolTangManager_Tips15 Currently has no branch!
+>SchoolTangManager_Tips16 Class attributes
 
 >----------window18 martial art management----------
 >SchoolManager_Title Sects
 >SchoolManager_ShowLableNpc Current sect
->SchoolManager_lable3111 Sect ID
+>SchoolManager_lable3111 Sect ID:
 >SchoolManager_bntUpdataSchoolAttribute My Sect
 >SchoolManager_bntChooseSchool Select
 >SchoolManager_bntShowAllSchool All sects
 >SchoolManager_bntRemoveSchool Remove Sect
 >SchoolManager_ShowLableAttribute Current Attribute
->SchoolManager_lable3 Attribute ID
->SchoolManager_lable4 Attributes
+>SchoolManager_lable3 Attribute ID:
+>SchoolManager_lable4 Attributes:
 >SchoolManager_bntSetList Edit List
 >SchoolManager_bntYesSetList Confirm List
->SchoolManager_lable5 More
+>SchoolManager_lable5 More:
 >SchoolManager_bntEnterTangMgr Open
 
 >SchoolManager_Tips1 Enter the class management
@@ -813,26 +865,26 @@
 >QuickPainterFuSet_bntReOneFu Remove one
 >QuickPainterFuSet_bntClearMyFu Remove all
 >QuickPainterFuSet_bntShowMyFu Refresh
->QuickPainterFuSet_fuq Quality
+>QuickPainterFuSet_fuq Quality:
 >QuickPainterFuSet_bntAddOneFu Add item
 >QuickPainterFuSet_bntAddAllFu Add all
 >QuickPainterFuSet_bntShowAllFu Show all
 
->QuickPainterFuSet_Tips1 modified successfully
->QuickPainterFuSet_Tips2 successfully modified number:
+>QuickPainterFuSet_Tips1 Modified successfully
+>QuickPainterFuSet_Tips2 Successfully modified number:
 >QuickPainterFuSet_Tips3 Total:
 >QuickPainterFuSet_Tips4 Successfully refreshed the quick drawing symbol list!
 >QuickPainterFuSet_Tips5 Successfully refreshed the list of all spells!
 >QuickPainterFuSet_Tips6 Successfully cleared the quick drawing symbol list!
 >QuickPainterFuSet_Tips7 Failed to clear the quick drawing list!
->QuickPainterFuSet_Tips8 single item removed successfully!
->QuickPainterFuSet_Tips9 single item removal failed!
->QuickPainterFuSet_Tips10 single item added successfully!
->QuickPainterFuSet_Tips11 single item addition failed!
->QuickPainterFuSet_Tips12 successfully added number:
+>QuickPainterFuSet_Tips8 Single item removed successfully!
+>QuickPainterFuSet_Tips9 Single item removal failed!
+>QuickPainterFuSet_Tips10 Single item added successfully!
+>QuickPainterFuSet_Tips11 Single item addition failed!
+>QuickPainterFuSet_Tips12 Successfully added number:
 >QuickPainterFuSet_Tips13 [Name]
 >QuickPainterFuSet_Tips14 [Description]
->QuickPainterFuSet_Tips15 [real name]
+>QuickPainterFuSet_Tips15 [Real name]
 >QuickPainterFuSet_Tips16 [Template]
 >QuickPainterFuSet_Tips17 [Unlock]
 >QuickPainterFuSet_Tips18 [Five Dimensions]
@@ -852,14 +904,14 @@
 
 >----------window20 Plant Management----------
 >PlantManager_Title Plant Management
->PlantManager_lable3111 ID
+>PlantManager_lable3111 ID:
 >PlantManager_ShowLableNpc Current plant
 >PlantManager_bntSetset NoChange
 >PlantManager_NoGrass IgnoreGrass
 >PlantManager_NoStone IgnoreStones
->PlantManager_lable6 Repair
->PlantManager_lable7 Remove
->PlantManager_lable9 Change Owner
+>PlantManager_lable6 Repair:
+>PlantManager_lable7 Remove:
+>PlantManager_lable9 Change Owner:
 
 >PlantManager_Tips1 Successfully selected plants!
 >PlantManager_Tips2 Successfully repaired all plants in the search list!
@@ -894,17 +946,17 @@
 >PlaceSet_l3 Region modifier:
 
 >PlaceSet_Tips1 Number of successful unlocks:
->PlaceSet_Tips2 all unlocked successfully!
+>PlaceSet_Tips2 All unlocked successfully!
 >PlaceSet_Tips3 Refresh the location unlock list successfully!
 >PlaceSet_Tips4 Failed to modify the location unlock list!
->PlaceSet_Tips5 modification failed!
+>PlaceSet_Tips5 Modification failed!
 >PlaceSet_Tips6 Confirmation list failed!
->PlaceSet_Tips7 successfully modified the list!
->PlaceSet_Tips8 failed to modify the list!
+>PlaceSet_Tips7 Successfully modified the list!
+>PlaceSet_Tips8 Failed to modify the list!
 >PlaceSet_Tips9 Refresh the list successfully!
 >PlaceSet_Tips10 Failed to refresh the list!
->PlaceSet_Tips11 attribute list
->PlaceSet_Tips12 area list
+>PlaceSet_Tips11 Attribute list
+>PlaceSet_Tips12 Area list
 >PlaceSet_Tips13 Location unlock list
 
 >----------window22 miscellaneous modification----------
@@ -937,6 +989,8 @@
 >OthersModManager_Title Other MOD
 >OthersModManager_lable1 Map assistant:
 >OthersModManager_lable2 Misc. assistant:
+>OthersModManager_lable3 Grid Information:
+
 >OthersModManager_bntYesMapHelper Open
 
 >OthersModManager_Tips1 Green is available, red is not available!
@@ -986,36 +1040,36 @@
 >NpcManagerTitle_
 
 >NpcManagerTitle_Tips1 The currently selected title
->NpcManagerTitle_Tips2 currently selected requirements
+>NpcManagerTitle_Tips2 Currently selected requirements
 >NpcManagerTitle_Tips3 The currently selected command
 >NpcManagerTitle_Tips4 The currently selected job
->NpcManagerTitle_Tips5 current relationship
+>NpcManagerTitle_Tips5 Current relationship
 >NpcManagerTitle_Tips6 Current NPC
 >NpcManagerTitle_Tips7 NPC flag list
 >NpcManagerTitle_Tips8 flag list
 >NpcManagerTitle_Tips9 All relations list
 >NpcManagerTitle_Tips10 NPC list
->NpcManagerTitle_Tips11 related personnel
+>NpcManagerTitle_Tips11 Related personnel
 >NpcManagerTitle_Tips12 Relationship List
 >NpcManagerTitle_Tips13 Map job list
->NpcManagerTitle_Tips14 job list
+>NpcManagerTitle_Tips14 Job list
 >NpcManagerTitle_Tips15 Command List
 >NpcManagerTitle_Tips16 Requirements list
 >NpcManagerTitle_Tips17 Title list
->NpcManagerTitle_Tips18 updated successfully!
+>NpcManagerTitle_Tips18 Updated successfully!
 >NpcManagerTitle_Tips19 The demand is fully satisfied!
->NpcManagerTitle_Tips20 started to work successfully!
->NpcManagerTitle_Tips21 failed to start working!
->NpcManagerTitle_Tips22 successfully finished the work!
+>NpcManagerTitle_Tips20 Started to work successfully!
+>NpcManagerTitle_Tips21 Failed to start working!
+>NpcManagerTitle_Tips22 Successfully finished the work!
 >NpcManagerTitle_Tips23 Failed to end the job!
 >NpcManagerTitle_Tips24 Successful job search!
 >NpcManagerTitle_Tips25 Failed to find a job!
 >NpcManagerTitle_Tips26 The command is successful!
 >NpcManagerTitle_Tips27 Failed to get the command!
 >NpcManagerTitle_Tips28 The traversal work is successful!
->NpcManagerTitle_Tips29 traversal job failed!
+>NpcManagerTitle_Tips29 Traversal job failed!
 >NpcManagerTitle_Tips30 Successfully remove all relations!
->NpcManagerTitle_Tips31 shows that the existing relationship is successful!
+>NpcManagerTitle_Tips31 Shows that the existing relationship is successful!
 >NpcManagerTitle_Tips32 Successfully removed the relationship!
 >NpcManagerTitle_Tips33 Failed to remove the relationship!
 >NpcManagerTitle_Tips34 Successfully remove the relationship with this person!
@@ -1034,6 +1088,8 @@
 >NpcManagerTitle_Tips47
 >NpcManagerTitle_Tips48
 >NpcManagerTitle_Tips49
+
+
 >----------window25 Other training systems----------
 >NpcManagerOtherPractice_Title Other practice systems
 >NpcManagerOtherPractice_Title NPC more management
@@ -1066,7 +1122,15 @@
 >NpcManagerOtherPractice_bnt5_1 All moods
 >NpcManagerOtherPractice_bnt5_5 Empty memories
 >NpcManagerOtherPractice_bnt5_6 Empty mind
->NpcManagerOtherPractice_bnt5_3 Complete mind
+>NpcManagerOtherPractice_bnt5_3 Finish Thinking
+>NpcManagerOtherPractice_ShowLable6 Global management:
+>NpcManagerOtherPractice_ShowLable61 Number of quenched entries:
+>NpcManagerOtherPractice_bnt6_1 Modify
+>NpcManagerOtherPractice_box6_1 Default Modification
+>NpcManagerOtherPractice_bnt6_2 Enabled
+>NpcManagerOtherPractice_bnt6_22 Disabled
+>NpcManagerOtherPractice_ShowLable62 Entries can be refreshed:
+>NpcManagerOtherPractice_BPLableRefreshBtn Refresh x
 
 >NpcManagerOtherPractice_Tips1 allows you to add secret bodies that do not belong to the character's race! [color=#BF1010] When adding such secret bodies, the archive will be damaged!!! [color]
 >NpcManagerOtherPractice_Tips2 has turned off this feature!
@@ -1134,10 +1198,17 @@
 >NpcManagerOtherPractice_Tips64 NPC pose list
 >NpcManagerOtherPractice_Tips65 NPC parts list
 >NpcManagerOtherPractice_Tips66 Quenched body entry list
->NpcManagerOtherPractice_Tips67
->NpcManagerOtherPractice_Tips68
->NpcManagerOtherPractice_Tips69
->NpcManagerInterior_Title internal door management
+>NpcManagerOtherPractice_Tips67 The number of entries that can be selected when performing body repair. (Note: The actual number may be lower than this value due to repeated basic entries.)
+>NpcManagerOtherPractice_Tips68 Modified successfully! Total number of modified entries:
+>NpcManagerOtherPractice_Tips69 Modification failed!
+>NpcManagerOtherPractice_Tips70 Already enabled!
+>NpcManagerOtherPractice_Tips71 Failed to enable!
+>NpcManagerOtherPractice_Tips72 Disabled!
+>NpcManagerOtherPractice_Tips73 When performing body repair, select whether to add a refresh button to the entry interface. (Note: You need to enter the entry selection window once in the game to successfully enable this function!)
+>NpcManagerOtherPractice_Tips74 Already enabled! There may be a window flashing by.
+
+>----------window26 inner door management----------
+>NpcManagerInterior_Title Internal door management
 >NpcManagerInterior_mod1lab Skills:
 >NpcManagerInterior_ShowLableTitleID ID:
 >NpcManagerInterior_lablen1 Add:
@@ -1166,30 +1237,30 @@
 >NpcManagerInterior_Tips3 The currently selected job
 >NpcManagerInterior_Tips4 The currently selected method
 >NpcManagerInterior_Tips5 Current work method
->NpcManagerInterior_Tips6 currently has no gold core
+>NpcManagerInterior_Tips6 Currently has no gold core
 >NpcManagerInterior_Tips7 Internal door management
 >NpcManagerInterior_Tips8 Anonymous
 >NpcManagerInterior_Tips9 Cheats list
 >NpcManagerInterior_Tips10 All Cheats List
 >NpcManagerInterior_Tips11 List of all exercises
->NpcManagerInterior_Tips12 shows all the exercises are successful!
->NpcManagerInterior_Tips13 shows all the exercises failed!
+>NpcManagerInterior_Tips12 Shows all the exercises are successful!
+>NpcManagerInterior_Tips13 Shows all the exercises failed!
 >NpcManagerInterior_Tips14 Successfully changed the technique!
 >NpcManagerInterior_Tips15 Failed to change the technique!
 >NpcManagerInterior_Tips16 Show all cheats for success!
->NpcManagerInterior_Tips17 failed to display all cheats!
+>NpcManagerInterior_Tips17 Failed to display all cheats!
 >NpcManagerInterior_Tips18 Successfully added all cheats!
 >NpcManagerInterior_Tips19 Failed to add all cheats!
 >NpcManagerInterior_Tips20 Successfully updated the cheats list!
->NpcManagerInterior_Tips21 failed to update the list of cheats!
+>NpcManagerInterior_Tips21 Failed to update the list of cheats!
 >NpcManagerInterior_Tips22 Successfully added cheats!
 >NpcManagerInterior_Tips23 Failed to add cheats!
->NpcManagerInterior_Tips24 successfully removed!
->NpcManagerInterior_Tips25 removal failed!
->NpcManagerInterior_Tips26 all removed successfully!
->NpcManagerInterior_Tips27 all removal failed!
->NpcManagerInterior_Tips28 is set successfully!
->NpcManagerInterior_Tips29 setting failed!
+>NpcManagerInterior_Tips24 Successfully removed!
+>NpcManagerInterior_Tips25 Removal failed!
+>NpcManagerInterior_Tips26 All removed successfully!
+>NpcManagerInterior_Tips27 All removal failed!
+>NpcManagerInterior_Tips28 Set successfully!
+>NpcManagerInterior_Tips29 Setting failed!
 >NpcManagerInterior_Tips30 All spell skills have been successfully removed!
 >NpcManagerInterior_Tips31 Failed to remove all spell skills!
 >NpcManagerInterior_Tips32 All drawable spells have been successfully removed!
@@ -1198,8 +1269,12 @@
 >NpcManagerInterior_Tips35 Failed to remove all Danfang!
 >NpcManagerInterior_Tips36 Successfully execute the reset process of the skill tree!
 >NpcManagerInterior_Tips37 Failed to execute the reset process of the skill tree!
->NpcManagerInterior_Tips38 search successfully!
->NpcManagerInterior_Tips39 search failed!
+>NpcManagerInterior_Tips38 Search successfull!
+>NpcManagerInterior_Tips39 Search failed!
+
+
+
+
 
 >----------window27 Character Management----------
 >NpcManager_Title NPCs
@@ -1223,7 +1298,11 @@
 >NpcManager_btnNPCGodCoreNpcRemove RemoveB
 >NpcManager_btnNPCRemoveBuildings EmptyB
 >NpcManager_btnNPCUnlockBuildings Unlock
->NpcManager_btnNPCFinishWish Wishful
+>NpcManager_btnNPCFinishWish Wish full
+>NpcManager_btnNPCReWish Clear wishes
+>NpcManager_btnNPCGuardsUnlockAll Unlock Guard
+>NpcManager_btnNPCGuardsAddAll Added Guard
+>NpcManager_btnNPCGuardsReAll Guard removed
 >NpcManager_btnNpcFullFive Five Base
 >NpcManager_btnNpcFullNeed Full Needs
 >NpcManager_btnNpcEmptyNeed Empty Needs
@@ -1249,11 +1328,19 @@
 >NpcManager_btnNpcAutoFishing AutoFishing
 >NpcManager_btnNpcMakeHorse Make Horse
 >NpcManager_lable15 Other
+>NpcManager_btnGetAllJH Full of Essence
+>NpcManager_btnGetNowAllJH Essence pull full
+>NpcManager_btnNpcCloneNPC Clone Character
+>NpcManager_btnNpcGetSave Export Role
+>NpcManager_btnNpcInteSave Import Role
+>NpcManager_btnNpcInteSaveP Import Disciple
+>NpcManager_lable15 Other management:
 >NpcManager_btnNpcInteriorNPC Secret Arts
 >NpcManager_btnNpcMoreNPC Relationship
 >NpcManager_btnNpcManagerOtherPractice Other systems
->NpcManager_lable3111 ID
->NpcManager_btnChooseNpc Select
+>NpcManager_lableGloble Global functions:									 
+>NpcManager_lable3111 NPC ID:
+>NpcManager_btnChooseNpc Select NPC
 >NpcManager_btnShowChoose View location
 >NpcManager_btnPutNpcList Paste data
 >NpcManager_btnUpdataNpcList MEN
@@ -1287,52 +1374,52 @@
 >NpcManager_Tips22 Fully NPC's knowledge, roots, charm, opportunity and understanding
 >NpcManager_Tips23 The NPC's mental, fullness, thirst, essence, aura, etc. needs all become full value
 >NpcManager_Tips24 The NPC's spirit, fullness, thirst, essence, aura and other needs all become 0
->NpcManager_Tips25 makes the relationship between the NPC and other characters better
->NpcManager_Tips26 makes the relationship between the NPC and other characters 0
->NpcManager_Tips27 makes the relationship between the NPC and other characters worse
+>NpcManager_Tips25 Makes the relationship between the NPC and other characters better
+>NpcManager_Tips26 Makes the relationship between the NPC and other characters 0
+>NpcManager_Tips27 Makes the relationship between the NPC and other characters worse
 >NpcManager_Tips28 Reset the character relationship list of the NPC
 >NpcManager_Tips29 Clear all drug resistances of the NPC (drug resistance list)
 >NpcManager_Tips30 Clear all memories of the NPC (memory list)
->NpcManager_Tips31 turns the NPC into a puppet
->NpcManager_Tips32 turns the NPC into a zombie
->NpcManager_Tips33 turns the NPC into a monster
->NpcManager_Tips34 turns the NPC into a spirit beast\nReselect the NPC to refresh the description!!
->NpcManager_Tips35 deletes the beast data of the NPC\nReselect the NPC to refresh the description!!
->NpcManager_Tips36 is generally used to enable ordinary animals to turn on their wisdom
->NpcManager_Tips37 directly transforms monsters with transformation
->NpcManager_Tips38 allows the NPC to change its position (can be understood as canceling the "fixed body")\nReselect the NPC to refresh the description!!
->NpcManager_Tips39 does not allow the NPC to change position (it can be understood as "fixed body")\nReselect the NPC to refresh the description!!
->NpcManager_Tips40 makes the NPC Xuan Mi rebirth (equivalent to eating Xuan Mi Rebirth Pill)
+>NpcManager_Tips31 Turns the NPC into a Puppet
+>NpcManager_Tips32 Turns the NPC into a Zombie
+>NpcManager_Tips33 Turns the NPC into a Monster
+>NpcManager_Tips34 Turns the NPC into a Spirit Beast\nReselect the NPC to refresh the description!!
+>NpcManager_Tips35 Deletes the beast data of the NPC\nReselect the NPC to refresh the description!!
+>NpcManager_Tips36 Is generally used to enable ordinary animals to turn on their wisdom
+>NpcManager_Tips37 Directly transforms monsters with transformation
+>NpcManager_Tips38 Allows the NPC to change its position (can be understood as canceling the "fixed body")\nReselect the NPC to refresh the description!!
+>NpcManager_Tips39 Does not allow the NPC to change position (it can be understood as "fixed body")\nReselect the NPC to refresh the description!!
+>NpcManager_Tips40 Makes the NPC Xuan Mi rebirth (equivalent to eating Xuan Mi Rebirth Pill)
 >NpcManager_Tips41 Restore the NPC's Dao Foundation so that it can be practiced\nReselect the NPC to refresh the description!!
 >NpcManager_Tips42 Destroy the NPC's Dao Foundation, making it impossible to practice\nReselect the NPC to refresh the description!!
 >NpcManager_Tips43 Change the position of the NPC to a random reachable point nearby (usually used to solve the problem of NPC stuck)
 >NpcManager_Tips44 Successfully enhance the faith of believers!
->NpcManager_Tips45 is not divine cultivation or unavailable, which leads to failure to promote believers' faith!
+>NpcManager_Tips45 Is not divine cultivation or unavailable, which leads to failure to promote believers' faith!
 >NpcManager_Tips46 Successfully reduce the faith of believers!
->NpcManager_Tips47 is not divine cultivation or unavailable, resulting in failure to lower the faith of believers!
+>NpcManager_Tips47 Is not divine cultivation or unavailable, resulting in failure to lower the faith of believers!
 >NpcManager_Tips48 Successfully recruited believers!
->NpcManager_Tips49 is not divine cultivation or unavailable, resulting in failure to recruit believers!
+>NpcManager_Tips49 Is not divine cultivation or unavailable, resulting in failure to recruit believers!
 >NpcManager_Tips50 Successfully cleared the followers!
->NpcManager_Tips51 is not divine cultivation or unavailable, which leads to failure to empty believers!
+>NpcManager_Tips51 Is not divine cultivation or unavailable, which leads to failure to empty believers!
 >NpcManager_Tips52 Successfully cleared all the buildings in the Kingdom of God!
->NpcManager_Tips53 is not divine repair or unavailable, and it fails to clear all the buildings in the kingdom of God!
+>NpcManager_Tips53 Is not divine repair or unavailable, and it fails to clear all the buildings in the kingdom of God!
 >NpcManager_Tips54 Completed all wishes successfully!
->NpcManager_Tips55 is not a god repair or is unavailable, resulting in failure to complete all wishes!
+>NpcManager_Tips55 Is not a god repair or is unavailable, resulting in failure to complete all wishes!
 >NpcManager_Tips56 Successfully unlocked all the buildings in the Kingdom of God!
->NpcManager_Tips57 is not a god repair or unavailable, causing unlocking failure!
+>NpcManager_Tips57 Is not a god repair or unavailable, causing unlocking failure!
 >NpcManager_Tips58 NPC transformed successfully!
->NpcManager_Tips59 has been transformed!
->NpcManager_Tips60 failed to transform!
+>NpcManager_Tips59 Has been transformed!
+>NpcManager_Tips60 Failed to transform!
 >NpcManager_Tips61 Successfully changed NPC position!
 >NpcManager_Tips62 Failed to change NPC position!
 >NpcManager_Tips63 The operation of Doji is successful!
->NpcManager_Tips64 failed in the operation of Doji!
->NpcManager_Tips65 is reborn successfully!
->NpcManager_Tips66 failed to rebirth!
->NpcManager_Tips67 became a spirit beast and the modification was successful!
->NpcManager_Tips68 became a spirit beast and the modification failed!
->NpcManager_Tips69 became a monster and modified successfully!
->NpcManager_Tips70 becomes a monster and the modification fails!
+>NpcManager_Tips64 Failed in the operation of Doji!
+>NpcManager_Tips65 Is reborn successfully!
+>NpcManager_Tips66 Failed to rebirth!
+>NpcManager_Tips67 Became a spirit beast and the modification was successful!
+>NpcManager_Tips68 Became a spirit beast and the modification failed!
+>NpcManager_Tips69 Became a monster and modified successfully!
+>NpcManager_Tips70 Becomes a monster and the modification fails!
 >NpcManager_Tips71 Break through the bottleneck and modify successfully!
 >NpcManager_Tips72 Breaking through the bottleneck and modification failed!
 >NpcManager_Tips73 The obsession upgrade is successful!
@@ -1345,7 +1432,7 @@
 >NpcManager_Tips80 Failed to clear the obsession!
 >NpcManager_Tips81 Successfully upgrade the realm!
 >NpcManager_Tips82 Failed to improve the state!
->NpcManager_Tips83 successfully removed the equipment!
+>NpcManager_Tips83 Successfully removed the equipment!
 >NpcManager_Tips84 Failed to remove equipment!
 >NpcManager_Tips85 is very successful!
 >NpcManager_Tips86 All good feelings fail!
@@ -1355,10 +1442,10 @@
 >NpcManager_Tips90 Failed with a negative impression!
 >NpcManager_Tips91 Successfully reset the relationship!
 >NpcManager_Tips92 Failed to reset relationship!
->NpcManager_Tips93 becomes a puppet successfully!
->NpcManager_Tips94 failed to become a puppet!
->NpcManager_Tips95 becomes a zombie successfully!
->NpcManager_Tips96 failed to become a zombie!
+>NpcManager_Tips93 Becomes a puppet successfully!
+>NpcManager_Tips94 Failed to become a puppet!
+>NpcManager_Tips95 Becomes a zombie successfully!
+>NpcManager_Tips96 Failed to become a zombie!
 >NpcManager_Tips97 Successfully killed Jieyun!
 >NpcManager_Tips98 Failed to kill Jieyun!
 >NpcManager_Tips99 Successfully reconstructed body!
@@ -1367,17 +1454,17 @@
 >NpcManager_Tips102 The attempt to kill by thunder failed!
 >NpcManager_Tips103 Successfully repaired the wound!
 >NpcManager_Tips104 Failed to repair trauma!
->NpcManager_Tips105 successfully killed!
->NpcManager_Tips106 failed to kill!
+>NpcManager_Tips105 Successfully killed!
+>NpcManager_Tips106 Failed to kill!
 >NpcManager_Tips107 Successful rescue!
 >NpcManager_Tips108 Rescue failed!
 >NpcManager_Tips109 Powerful rescue success!
 >NpcManager_Tips110 Powerful rescue failed!
->NpcManager_Tips111 demand is fully successful!
+>NpcManager_Tips111 Demand is fully successful!
 >NpcManager_Tips112 Failed to meet all requirements!
 >NpcManager_Tips113 All requirements are empty successfully!
 >NpcManager_Tips114 Failed with all empty requirements!
->NpcManager_Tips115 successfully removed drug resistance!
+>NpcManager_Tips115 Successfully removed drug resistance!
 >NpcManager_Tips116 Failed to remove resistance!
 >NpcManager_Tips117 Clear memory successfully!
 >NpcManager_Tips118 Failed to clear memory!
@@ -1385,23 +1472,23 @@
 >NpcManager_Tips120 Failed to remove NPC!
 >NpcManager_Tips121 NPC is forbidden to move!
 >NpcManager_Tips122 NPC is allowed to move!
->NpcManager_Tips123 successfully cloned NPC!
->NpcManager_Tips124 failed to clone NPC!
+>NpcManager_Tips123 Successfully cloned NPC!
+>NpcManager_Tips124 Failed to clone NPC!
 >NpcManager_Tips125 Successfully resurrected the dead!
 >NpcManager_Tips126 The resurrection of the dead failed!
->NpcManager_Tips127 Qizhi succeeded!
+>NpcManager_Tips127 Enlightenment succeeded!
 >NpcManager_Tips128 Enlightenment failed!
->NpcManager_Tips129 suffered 100 million points of damage inside.
->NpcManager_Tips130 current function
+>NpcManager_Tips129 Suffered 100 million points of damage inside.
+>NpcManager_Tips130 Current function
 >NpcManager_Tips131 BuffID:
 >NpcManager_Tips132 Add Buff
 >NpcManager_Tips133 Remove Buff
 >NpcManager_Tips134 Feature ID:
->NpcManager_Tips135 add features
->NpcManager_Tips136 remove feature
+>NpcManager_Tips135 Add features
+>NpcManager_Tips136 Remove feature
 >NpcManager_Tips137 Experience ID:
 >NpcManager_Tips138 Add experience
->NpcManager_Tips139 removal experience
+>NpcManager_Tips139 Removal experience
 >NpcManager_Tips140 Mood ID:
 >NpcManager_Tips141 Add mood
 >NpcManager_Tips142 Remove mood
@@ -1418,15 +1505,15 @@
 >NpcManager_Tips153 :Feature list refreshed successfully!
 >NpcManager_Tips154 :The Experience list refreshed successfully!
 >NpcManager_Tips155 :Mood list refreshed successfully!
->NpcManager_Tips156 type modified successfully!
->NpcManager_Tips157 number is empty, modification failed!
->NpcManager_Tips158 number overflow, modification failed!
->NpcManager_Tips159 additional value V
->NpcManager_Tips160 additional value P
->NpcManager_Tips161 base value V
->NpcManager_Tips162 base value P
+>NpcManager_Tips156 Type modified successfully!
+>NpcManager_Tips157 Number is empty, modification failed!
+>NpcManager_Tips158 Number overflow, modification failed!
+>NpcManager_Tips159 Additional value V
+>NpcManager_Tips160 Additional value P
+>NpcManager_Tips161 Base value V
+>NpcManager_Tips162 Base value P
 >NpcManager_Tips163 All intelligent NPCs, enter the basic attribute modification module
->NpcManager_Tips164 ​​All NPCs on the map, enter the basic attribute modification module
+>NpcManager_Tips164 All NPCs on the map, enter the basic attribute modification module
 >NpcManager_Tips165 All Buff (entry), enter Modifier modification module
 >NpcManager_Tips166 all features, enter the feature modification module
 >NpcManager_Tips167 All experience, enter the experience modification module
@@ -1434,9 +1521,9 @@
 >NpcManager_Tips169 Cheats for exercises:\n1. Add exercises, change exercises.\n2. Add cheats, remove cheats.\n3. Modify gold core value.
 >NpcManager_Tips170 Demand relationship:\n1. Modify, add, remove character titles.\n2. Modify the needs of the characters (hunger, entertainment value, etc.).\n3. Modify the relationship between the characters.
 >NpcManager_Tips171 Other systems:\n1. Physical training attribute modification.\n2. Monster mind management.
->NpcManager_Tips172 is used to select NPC
->NpcManager_Tips173 is used to paste data from "Jianghu Management"
->NpcManager_Tips174 modified successfully!
+>NpcManager_Tips172 Is used to select NPC
+>NpcManager_Tips173 Is used to paste data from "Jianghu Management"
+>NpcManager_Tips174 Modified successfully!
 >NpcManager_Tips175 Show all attributes!
 >NpcManager_Tips176 Paste successfully!
 >NpcManager_Tips177 No data!
@@ -1447,22 +1534,98 @@
 >NpcManager_Tips182 Successfully entered the Cheats Management!
 >NpcManager_Tips183 Enter more systems and modify successfully!
 >NpcManager_Tips184 Find attributes
->NpcManager_Tips185 attribute
->NpcManager_Tips186 selected list
+>NpcManager_Tips185 Attribute
+>NpcManager_Tips186 Selected list
 >NpcManager_Tips187 AllModifier list
->NpcManager_Tips188 removal failed
+>NpcManager_Tips188 Removal failed
 >NpcManager_Tips189 Modifier list--
->NpcManager_Tips190 full feature list
->NpcManager_Tips191 feature list--
+>NpcManager_Tips190 Full feature list
+>NpcManager_Tips191 Feature list--
 >NpcManager_Tips192 All experience list
 >NpcManager_Tips193 Experience list--
 >NpcManager_Tips194 All mood list
 >NpcManager_Tips195 Remove all aging mood!
 >NpcManager_Tips196 Remove all moods!
 >NpcManager_Tips197 Mood List--
->NpcManager_Tips198 auto fishing function: when the character is fishing, clicking this button will turn on the character's auto fishing function.
->NpcManager_Tips199 automatic fishing function opened successfully!
->NpcManager_Tips200 automatic fishing function opened unsuccessfully!
->NpcManager_ Tips201 creates Lingqi. \nTry to create a Lingqi. Note: only to change the role as a model to create a spiritual contract!
->NpcManager_ Tips202 creates Lingqi successfully!
->NpcManager_ Tips203 failed to create Lingqi!
+>NpcManager_Tips198 Auto fishing function: when the character is fishing, clicking this button will turn on the character's auto fishing function.
+>NpcManager_Tips199 Automatic fishing function opened successfully!
+>NpcManager_Tips200 Automatic fishing function opened unsuccessfully!
+>NpcManager_Tips201 Creates Lingqi. \nTry to create a Lingqi. Note: only to change the role as a model to create a spiritual contract!
+>NpcManager_Tips202 Creates Lingqi successfully!
+>NpcManager_Tips203 Failed to create Lingqi!
+>NpcManager_Tips204 Essence empty\nTry to empty all the essence of this body repair. \nNote: Only available for physical training!
+>NpcManager_Tips205 Empty essence successfully!
+>NpcManager_Tips206 Failed to clear essence!
+>NpcManager_Tips207 Full of essences\nTry to give all the known essences of the body repair-the quantity is 9999. \nNote: Only available for physical training!
+>NpcManager_Tips208 all the essence of success!
+>NpcManager_Tips209 All the essence of NpcManager_Tips209 failed!
+>NpcManager_Tips210 Full of essences\nTry to modify the number of essences in this exercise to 9999. \nNote: Only available for physical training!
+>NpcManager_Tips211 The essence of NpcManager_Tips211 is successfully pulled!
+>NpcManager_Tips212 The essence of NpcManager_Tips212 failed!
+>NpcManager_Tips213 Attempt to clone the current character, if successful, a same character will be generated at the current position.
+>NpcManager_Tips214 Try to export the current role. If it succeeds, you can use the import function to import the role on any map.
+>NpcManager_Tips215 Try to import the previously exported role. If successful, a previously exported role will be generated at a random location. (Note: Importing the same character on the same map multiple times may fail. Please use the clone function.)
+>NpcManager_Tips216 The role was successfully exported.
+>NpcManager_Tips217 The attempt to export failed.
+>NpcManager_Tips218 The role is imported successfully.
+>NpcManager_Tips219 Failed to import roles.
+>NpcManager_Tips220 Try to import the previously exported character. If successful, a previously exported character will be generated at a random location (the character will become a disciple). (Note: Importing the same character on the same map multiple times may fail. Please use the clone function.)
+>NpcManager_Tips221 Clear wishes, clear all currently collected wishes. (Note: only clear)
+>NpcManager_Tips223 Unlock all Guards, only those you don't own
+>NpcManager_Tips224 Remove all Guards, remove all current Guards
+>NpcManager_Tips225 Cleared the wish successfully.
+>NpcManager_Tips226 Failed to clear the wish.
+>NpcManager_Tips229 All Guards have been unlocked successfully.
+>NpcManager_Tips230 Failed to unlock all Guards.
+>NpcManager_Tips231 All Guards were removed successfully.
+>NpcManager_Tips232 Failed to remove all Guards.
+>NpcManager_Tips233 Add all Guards. All types of Guards will be added once.
+>NpcManager_Tips234 All Guards have been added successfully.
+>NpcManager_Tips235 Failed to add all Guards.
+
+>----------window28 Grid Information----------
+>InfoDisplayWindow_Tips1 GridInformationPRO(Beta)
+>InfoDisplayWindow_Tips2 Current selection: None
+>InfoDisplayWindow_Tips3 Display settings:
+>InfoDisplayWindow_Tips4 Move Up
+>InfoDisplayWindow_Tips5 Move Down
+
+>InfoDisplayWindow_Tips6 Enable
+>InfoDisplayWindow_Tips7 Disable
+>InfoDisplayWindow_Tips8 Format settings (not supported for saving):
+>InfoDisplayWindow_Tips9 Default
+>InfoDisplayWindow_Tips10 Modify
+
+>InfoDisplayWindow_Tips11 Text settings:
+>InfoDisplayWindow_Tips12 Size [1-40]:
+>InfoDisplayWindow_Tips13 Alignment [1-3]:
+>InfoDisplayWindow_Tips14 Bold[0-1]:
+>InfoDisplayWindow_Tips15 Parameter settings:
+
+>InfoDisplayWindow_Tips16 X:
+>InfoDisplayWindow_Tips17 Y:
+>InfoDisplayWindow_Tips18 Width:
+>InfoDisplayWindow_Tips19 Height:
+>InfoDisplayWindow_Tips20 Refresh Interval [0-40]:
+
+>InfoDisplayWindow_Tips21 Default Colors:
+>InfoDisplayWindow_Tips22 Load Settings
+>InfoDisplayWindow_Tips23 Save Settings
+>InfoDisplayWindow_Tips24 Enable this feature
+>InfoDisplayWindow_Tips25 All Default
+
+>InfoDisplayWindow_Tips26 Current selection:
+>InfoDisplayWindow_Tips27 Setup has been attempted!
+>InfoDisplayWindow_Tips28 Tried to save settings!
+>InfoDisplayWindow_Tips29 Tried to load settings!
+>InfoDisplayWindow_Tips30 Close more grid info!
+
+>InfoDisplayWindow_Tips31 Enable more grid info!
+
+
+>InfoDisplayWindow_Tips41 Unknown Area
+
+>----------Other1 double speed----------
+>TimeSetSpeed_Tips1 Times the speed
+>TimeSetSpeed_Tips2 [keycode]SpeedP[/keycode] Reduce speed
+>TimeSetSpeed_Tips3 [keycode]SpeedN[/keycode] Increase speed																																  
